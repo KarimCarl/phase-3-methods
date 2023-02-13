@@ -25,7 +25,7 @@ end
 
 #5
 def halve(number)
-    if  number.class != integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                "number")
+    if  number.class != Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                   "number")
         return nil
     end 
     number / 2
