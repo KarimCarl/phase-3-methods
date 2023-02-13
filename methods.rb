@@ -24,9 +24,10 @@ def add (num1, num2)
 end
 
 #5
-def halve(number)
-    if  number.class != Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                   "number")
+
+def halve number
+    if number.class != Integer
         return nil
-    end 
-    number / 2
+    end
+    number/2
 end
