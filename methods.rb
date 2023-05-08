@@ -1,33 +1,23 @@
-# Your code here!
-
-#1
 def greet_programmer
     puts "Hello, programmer!"
 end
-greet_programmer 
 
-#2
-def greet name 
+def greet (name)
     puts "Hello, #{name}!"
 end
-greet "Jimmy"
 
-#3
-def greet_with_default (name = "programmer")
+def greet_with_default(name ="programmer")
     puts "Hello, #{name}!"
-end 
-
-
-#4
-def add (num1, num2)
-    num1 + num2 
 end
 
-#5
+def add(num1, num2)
+    num1 + num2
+end
 
-def halve number
-    if number.class != Integer
+def halve (num)
+    if num.class != Integer
         return nil
     end
-    number/2
+    
+    num / 2
 end
