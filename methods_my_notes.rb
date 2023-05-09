@@ -15,17 +15,17 @@
 # end
 # greet "Jimmy"
 
-# This methos will use the "programmer" as the default value if the variable is not given a name
+# This method will use the "programmer" as the default value if the variable is not given a name
 # def greet_with_default (name = "programmer")
 #     puts "Hello, #{name}!"
 # end 
 
-# #4
+# This method will return the last line 'num1 + num2'
 # def add (num1, num2)
 #     num1 + num2 
 # end
 
-# #5
+# Gate clause -- code only continues when the condition is met
 # def halve number
 #     if number.class != Integer
 #         return nil
