@@ -1,5 +1,8 @@
 # # Your code here!
 
+#puts prints text and adds a line break
+
+
 # #1
 # def greet_programmer
 #     puts "Hello, programmer!"
@@ -12,7 +15,7 @@
 # end
 # greet "Jimmy"
 
-# #3
+# This methos will use the "programmer" as the default value if the variable is not given a name
 # def greet_with_default (name = "programmer")
 #     puts "Hello, #{name}!"
 # end 
