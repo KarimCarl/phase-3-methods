@@ -73,3 +73,14 @@
 # reverse("Charlie")
 # reverse(163)
 
+
+# Variables in Ruby
+# #variable name "Joe" is outside of method greet and therefore not recognized by it
+# name = "Joe"
+
+# def greet(name)
+#     puts "Hello #{name}"
+# end
+# greet("Sophie")
+# #greet ("Sophie") refers to the method we defined
+
